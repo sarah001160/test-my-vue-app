@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/my-vue-app/(.*)",
+      "destination": "/my-vue-app/index.html"
+    }
+  ]
+}

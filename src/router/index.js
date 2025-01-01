@@ -1,4 +1,4 @@
-import { createRouter, createWebHashHistory } from 'vue-router'
+import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/HomeView.vue'
 const routes = [
   {
@@ -15,7 +15,7 @@ const routes = [
 
 const router = createRouter({
   //history: createWebHistory(process.env.BASE_URL),
-  history: createWebHashHistory(),
+  history: createWebHistory('/my-vue-app/'),  // 假設部署在子目錄，請根據實際情況設置
   routes
 })
 
